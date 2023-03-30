@@ -54,5 +54,17 @@ git clone https://github.com/shawlab-moffitt/DRPPM-FilePrep_ShinyApp.git
 
 ![alt text](https://github.com/shawlab-moffitt/DRPPM-FilePrep_ShinyApp/blob/main/Example_UI_Screenshots/DRPPM_PATH_SURVEIOR_FilePrepApp1.PNG?raw=true)
 
+1. User may input their expression and meta data here and denmote how their file is delimited, as to be read in properly.
+2. The app will try to detect survival time and event columns and will fill in any it thinks it finds. The user can delete any that are not true or search for ones that the app did not detect. 
+   * Additionally, be sure to select the unit of time your survival time columns are in.
+3. The app will run through the checks that are noted [above](https://github.com/shawlab-moffitt/DRPPM-FilePrep_ShinyApp#features) and will write out any findings at the top of the main panel.
+4. Below that, the user can visualize the original expression data input compared to the new expression file they can download.
+5. Lastly, the user can download the cleaned and properly formatted expression, meta, and meta parameter files for use in further analysis.
 
 ![alt text](https://github.com/shawlab-moffitt/DRPPM-FilePrep_ShinyApp/blob/main/Example_UI_Screenshots/DRPPM_PATH_SURVEIOR_FilePrepApp2.PNG?raw=true)
+
+* Along with cleaning and formatting the expression and meta data, the app with also generate a meta parameter file that the user can use as input to the [DRPPM-PATH-SURVEIOR Shiny App](https://github.com/shawlab-moffitt/DRPPM-PATH-SURVEIOR-Suite/tree/main/2-DRPPM-PATH-SURVEIOR-InteractiveApp)
+* This file give each column in the meta data a small definition that allows the survival app to find the survival time and event columns with little effort. 
+* As highlighted in the red, the file prep app with try to detect the survival time and event columns and generate a parameter file that defines these in the second column.
+
+
