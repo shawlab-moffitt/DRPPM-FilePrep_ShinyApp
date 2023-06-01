@@ -1,6 +1,6 @@
 # DRPPM-FilePrep Shiny App
 
-To help ease the set-up process of the DRPPM-PATH-SURVEIOR suite of tools, we have developed two methods for the user to prepare their files to be compatible with the applications and various scripts. Users can cole the Github repo and run the application or script locally (both perform the same task), or the user can visit the following link to a server hosting the app: http://shawlab.science/shiny/Dev/DRPPM_PATH_SURVEIOR_FilePrep/.
+To help ease the set-up process of the DRPPM-PATH-SURVEIOR suite of tools, we have developed two methods for the user to prepare their files to be compatible with the applications and various scripts. Users can cole the Github repo and run the application or script locally (both perform the same task), or the user can visit the following link to a server hosting the app: http://shawlab.science/shiny/PATH_SURVEYOR_FilePrep/.
 
 # Features
 
